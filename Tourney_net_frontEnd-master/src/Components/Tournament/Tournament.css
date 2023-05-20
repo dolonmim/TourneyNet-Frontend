@@ -1,0 +1,59 @@
+.container-fluid.tournament-container {
+    width: 70%;
+}
+.card-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+}
+
+.tournament-body h6,h2 {
+    text-align: center;
+}
+.t-header {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.t-header-btn-grp{
+    display: flex;
+    justify-content: space-between;
+    width: 425px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #0275d8;
+    color: white;
+}
+.large-table-team-2{
+    overflow-y: scroll;
+    height: 350px;
+}
+.large-table-3 {
+    height: 466px;
+    overflow-y: scroll;
+}

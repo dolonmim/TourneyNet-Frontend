@@ -1,0 +1,83 @@
+.hero-container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-110%, -70%);
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:#fff;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color:#fff;
+  }
+  
+  .hero-button {
+    padding: 8px 29px;
+    font-size: 1.5rem;
+    color: #fff;
+    border: 1px solid yellow;
+    border-radius: 3px;
+    background: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #ff6347;
+  }
+  .container-fluid.land-content-1-body {
+    width: 70%;
+}
+  
+  .land-content-1-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card.card-Header {
+    text-align: center;
+}
+.land-content-4 {
+    margin-bottom: 100px;
+}
+img.event-1 {
+    width:100%;
+    height: 100%;
+}
+
+img.partner-img {
+  height: 60px;
+  width: 60px;
+}
+
+.partners-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.zero-text-head{
+  margin:46px;
+}

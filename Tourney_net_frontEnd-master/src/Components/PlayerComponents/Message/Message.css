@@ -1,0 +1,72 @@
+.Message-content {
+    height: 75vh;
+    border: 1px solid #70707070;
+    padding: 20px;
+    margin: 10px;
+}
+
+.Message-content {}
+
+.Message-header {
+    border-bottom: 1px solid #70707070;
+    margin-bottom: 10px;
+}
+
+h3 {}
+
+.Message-body {
+    overflow-y: scroll;
+    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+
+.Message-body-content-1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.Message-body-content-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.Message-body-content-1 h6 {
+    background: rgb(2, 111, 255);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Message-body-content-2 h6 {
+    background: #70707070;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.team-btn {
+    margin-bottom: 5px;
+}
+
+button.btn.btn-primary.single-btn {
+    width: 100%;
+}
+
+p.flex-end-2 {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+p.flex-end {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}

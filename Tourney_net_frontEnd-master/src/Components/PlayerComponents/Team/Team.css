@@ -1,0 +1,12 @@
+.large-table-team{
+    overflow-y: scroll;
+    height: 235px;
+}
+
+.search-div{
+    display : flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
